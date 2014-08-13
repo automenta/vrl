@@ -1,0 +1,52 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vrl.workflow;
+
+import javafx.event.Event;
+import javafx.event.EventType;
+
+/**
+ * This class defines a connection event. A connection event is fired when a
+ * connection is made between two connectors.
+ * @author Michael Hoffer &lt;info@michaelhoffer.de&gt;
+ */
+public class ConnectionEvent extends Event {
+
+    public static final EventType<ConnectionEvent> ANY = new EventType<>(Event.ANY, "ConnectionEvent:ANY");
+    public static final EventType<ConnectionEvent> ADD = new EventType<>(ANY, "ConnectionEvent:ADD");
+    public static final EventType<ConnectionEvent> REMOVE = new EventType<>(ANY, "ConnectionEvent:REMOVE");
+    private transient Connector sConnector;
+    private transient Connector rConnector;
+    private transient Connection connection;
+
+    public ConnectionEvent(EventType<? extends Event> et, Connector sConnector, Connector rConnector, Connection connection) {
+        super(et);
+        this.sConnector = sConnector;
+        this.rConnector = rConnector;
+        this.connection = connection;
+    }
+
+    /**
+     * @return the source
+     */
+    public Connector getSenderConnector() {
+        return this.sConnector;
+    }
+
+    /**
+     * @return the receiver
+     */
+    public Connector getReceiverConnector() {
+        return this.rConnector;
+    }
+
+    /**
+     *
+     * @return the connection
+     */
+    public Connection getConnection() {
+        return this.connection;
+    }
+}
