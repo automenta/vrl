@@ -52,7 +52,6 @@
 
 package vrl.io;
 
-import vrl.io.ConfigurationFile;
 import vrl.visual.VGraphicsUtil;
 import java.awt.Dimension;
 import java.awt.Window;

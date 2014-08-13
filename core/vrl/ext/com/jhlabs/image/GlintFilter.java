@@ -16,8 +16,6 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
-import java.awt.geom.*;
 import java.awt.image.*;
 
 /**

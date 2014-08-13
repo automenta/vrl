@@ -54,7 +54,6 @@ package vrl.lang;
 
 import vrl.lang.groovy.GroovyCompiler;
 import vrl.lang.java.ClassFileObject;
-import vrl.lang.java.VJavaCompiler;
 import vrl.reflection.VisualCanvas;
 import java.util.Collection;
 import java.util.HashMap;

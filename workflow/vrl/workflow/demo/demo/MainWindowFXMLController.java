@@ -41,7 +41,6 @@ import vrl.workflow.FlowFactory;
 import vrl.workflow.MouseButton;
 import vrl.workflow.VFlow;
 import vrl.workflow.VNode;
-import vrl.workflow.fx.FXFlowNodeSkin;
 import vrl.workflow.fx.VCanvas;
 import vrl.workflow.fx.FXSkinFactory;
 import vrl.workflow.fx.OptimizableContentPane;
@@ -53,10 +52,6 @@ import java.nio.file.Paths;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.animation.KeyFrame;
-import javafx.animation.KeyValue;
-import javafx.animation.Timeline;
-import javafx.beans.property.DoubleProperty;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -65,7 +60,6 @@ import javafx.scene.control.ContextMenu;
 import javafx.scene.control.MenuItem;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
-import javafx.util.Duration;
 import jfxtras.labs.scene.control.window.Window;
 
 /**

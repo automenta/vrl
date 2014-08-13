@@ -54,7 +54,6 @@ package vrl.io.vrlx;
 
 import vrl.visual.Canvas;
 import java.io.File;
-import java.io.OutputStream;
 
 /**
  *

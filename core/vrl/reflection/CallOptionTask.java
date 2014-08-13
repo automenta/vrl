@@ -52,8 +52,6 @@
 
 package vrl.reflection;
 
-import vrl.visual.Task;
-
 /**
  * A call option task contains a task name and an invoke task. Its purpose is to
  * specify names for invoke tasks.

@@ -52,7 +52,6 @@ package vrl.lang.model;
 import vrl.workflow.FlowFactory;
 import vrl.workflow.VFlow;
 import vrl.workflow.VNode;
-import vrl.workflow.ValueObject;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;

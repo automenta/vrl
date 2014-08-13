@@ -18,7 +18,6 @@ package vrl.ext.com.jhlabs.image;
 
 import java.awt.*;
 import java.awt.image.*;
-import java.util.*;
 
 /**
  * An experimental filter which can be used for keying against a clean shot. Given a source image, a clean image and a destination image, 

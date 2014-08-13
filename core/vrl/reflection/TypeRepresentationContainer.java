@@ -198,7 +198,7 @@ public class TypeRepresentationContainer extends JPanel implements IDObject, Val
 
         type.setAlignmentX(0.0f);
 
-        this.add((Component) type);
+        this.add(type);
         this.add(Box.createHorizontalGlue());
 
         setOpaque(false);

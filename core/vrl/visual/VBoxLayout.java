@@ -53,7 +53,6 @@
 package vrl.visual;
 
 import java.awt.Container;
-import java.io.PrintStream;
 
 /**
  * <p>

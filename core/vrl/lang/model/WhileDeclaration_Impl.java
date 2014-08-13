@@ -49,9 +49,6 @@
  */
 package vrl.lang.model;
 
-import vrl.lang.model.Scope;
-import vrl.lang.model.WhileDeclaration;
-import vrl.lang.model.Invocation;
 import javafx.collections.ListChangeListener;
 
 /**

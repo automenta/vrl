@@ -69,7 +69,6 @@ import java.awt.event.MouseEvent;
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import javax.swing.JComponent;
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**

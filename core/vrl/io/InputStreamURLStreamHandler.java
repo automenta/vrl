@@ -57,7 +57,6 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
-import java.util.jar.JarEntry;
 
 /**
  *

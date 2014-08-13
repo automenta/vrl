@@ -55,7 +55,6 @@ package vrl.visual;
 import vrl.reflection.ComponentTree;
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
-import java.awt.Color;
 import java.awt.Composite;
 import java.awt.Graphics;
 import java.awt.Graphics2D;

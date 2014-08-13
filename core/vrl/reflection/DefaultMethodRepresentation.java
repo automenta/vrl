@@ -102,6 +102,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.AbstractButton;
 import javax.swing.BoxLayout;
 import javax.swing.JComponent;
 import javax.swing.JMenuItem;
@@ -663,7 +664,7 @@ public class DefaultMethodRepresentation extends VComponent
         }
         
         invokeButtonText = text;
-        ((VButton)buttonContainer.getComponents()[0]).setText(text);
+        ((AbstractButton)buttonContainer.getComponents()[0]).setText(text);
     }
 
     /**
@@ -2064,8 +2065,8 @@ class MethodMouseControl implements MouseListener, MouseMotionListener {
 
             for (MenuElement mE : titleBar.getMenu().getSubElements()) {
                 if (mE instanceof JMenuItem) {
-                    if (((JMenuItem) mE).getText().contains("Paste")) {
-                        ((JMenuItem) mE).setEnabled(
+                    if (((AbstractButton) mE).getText().contains("Paste")) {
+                        ((Component) mE).setEnabled(
                                 ClipboardUtil.
                                 isClipboardContentCompatible(
                                 method.getParameters()));

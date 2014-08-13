@@ -17,7 +17,6 @@ limitations under the License.
 package vrl.ext.com.jhlabs.image;
 
 import java.awt.*;
-import java.awt.image.*;
 
 // original code Copyright (C) Jerry Huxtable 1998
 //
@@ -221,9 +220,9 @@ public class ShapeFilter extends WholeImageFilter {
 					int	g = (col & 0xFF00) >> 8;
 					int	b = (col & 0xFF);
 
-					r = (int)((sr*r/transp));
-					g = (int)((sg*g/transp));
-					b = (int)((sb*b/transp));
+					r = ((sr*r/transp));
+					g = ((sg*g/transp));
+					b = ((sb*b/transp));
 				
 					// clip colors
 					if (r < 0)

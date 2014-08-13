@@ -123,7 +123,7 @@ public class ShadeFilter extends WholeImageFilter {
 		float width45 = Math.abs(6.0f * bumpHeight);
 		boolean invertBumps = bumpHeight < 0;
 		Vector3f position = new Vector3f(0.0f, 0.0f, 0.0f);
-		Vector3f viewpoint = new Vector3f((float)width / 2.0f, (float)height / 2.0f, viewDistance);
+		Vector3f viewpoint = new Vector3f(width / 2.0f, height / 2.0f, viewDistance);
 		Vector3f normal = new Vector3f();
 		Color4f c = new Color4f();
 		Function2D bump = bumpFunction;

@@ -53,7 +53,6 @@
 package vrl.types;
 
 import vrl.annotation.TypeInfo;
-import vrl.reflection.RepresentationType;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.reflection.VisualCanvas;
 import java.awt.event.ActionEvent;

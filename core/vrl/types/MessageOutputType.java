@@ -72,7 +72,7 @@ public class MessageOutputType extends TypeTemplate{
     public void setViewValue(Object o) {
 
         if (getMainCanvas() != null
-                && !((VisualCanvas) getMainCanvas()).isLoadingSession()) {
+                && !getMainCanvas().isLoadingSession()) {
             getMainCanvas().getMessageBox().addMessage(
                 "Message:", o.toString(), getConnector(), MessageType.INFO_SINGLE);
         }   

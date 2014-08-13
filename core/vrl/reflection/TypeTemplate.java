@@ -53,8 +53,6 @@
 package vrl.reflection;
 
 import vrl.annotation.TypeInfo;
-import vrl.reflection.RepresentationType;
-import vrl.reflection.TypeRepresentationBase;
 import java.awt.GridLayout;
 
 /**

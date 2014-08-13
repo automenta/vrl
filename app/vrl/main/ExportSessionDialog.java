@@ -56,11 +56,6 @@ import vrl.animation.AnimationTask;
 import vrl.reflection.VisualCanvas;
 import vrl.visual.MessageType;
 import java.awt.Color;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 

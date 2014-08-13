@@ -52,7 +52,6 @@
 
 package vrl.animation;
 
-import java.awt.Dimension;
 import java.awt.Point;
 import javax.swing.JComponent;
 

@@ -52,7 +52,6 @@
 
 package vrl.io;
 
-import vrl.visual.Task;
 import java.io.File;
 import java.io.IOException;
 
@@ -75,4 +74,5 @@ public interface FileSaver {
      * @return the default extension associated with this file saver
      */
     public String getDefaultExtension();
+    
 }

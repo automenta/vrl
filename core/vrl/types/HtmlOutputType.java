@@ -53,18 +53,10 @@
 package vrl.types;
 
 import vrl.annotation.TypeInfo;
-import vrl.reflection.RepresentationType;
 import vrl.reflection.TypeRepresentationBase;
-import vrl.visual.Canvas;
-import vrl.visual.Ruler;
 import vrl.visual.VBoxLayout;
-import vrl.visual.VCodeEditor;
 import vrl.visual.VContainer;
 import vrl.visual.VSwingUtil;
-import java.awt.Color;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
-import javax.swing.Box;
 
 import javax.swing.JTextPane;
 

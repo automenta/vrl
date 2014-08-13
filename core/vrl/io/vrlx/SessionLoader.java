@@ -55,7 +55,6 @@ package vrl.io.vrlx;
 import vrl.visual.Canvas;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
 
 /**
  *

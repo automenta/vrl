@@ -52,7 +52,6 @@
 
 package vrl.io;
 
-import vrl.system.Constants;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

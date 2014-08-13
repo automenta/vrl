@@ -17,7 +17,6 @@ limitations under the License.
 package vrl.ext.com.jhlabs.image;
 
 import java.awt.image.*;
-import java.util.*;
 
 /**
  * A filter which uses a another image as a ask to produce a halftoning effect.

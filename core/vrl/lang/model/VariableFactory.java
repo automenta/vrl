@@ -50,8 +50,6 @@
 
 package vrl.lang.model;
 
-import vrl.lang.model.Scope;
-
 /**
  *
  * @author Michael Hoffer <info@michaelhoffer.de>

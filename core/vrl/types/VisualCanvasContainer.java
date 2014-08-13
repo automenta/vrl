@@ -102,7 +102,7 @@ public class VisualCanvasContainer extends javax.swing.JPanel {
 
 
     public VisualCanvas getCanvas() {
-        return (VisualCanvas) canvas;
+        return canvas;
     }
 
     public void setCanvas(VisualCanvas canvas) {

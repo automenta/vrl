@@ -16,9 +16,7 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
 import java.awt.image.*;
-import java.util.*;
 
 /**
  * A filter which interpolates betwen two images. You can set the interpolation factor outside the range 0 to 1

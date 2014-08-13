@@ -589,7 +589,7 @@ public class NanoHTTPD {
             }
             int[] ret = new int[matchbytes.size()];
             for (int i = 0; i < ret.length; i++) {
-                ret[i] = ((Integer) matchbytes.elementAt(i)).intValue();
+                ret[i] = ((Number) matchbytes.elementAt(i)).intValue();
             }
             return ret;
         }
@@ -897,7 +897,7 @@ public class NanoHTTPD {
                 String mime = null;
                 int dot = f.getCanonicalPath().lastIndexOf('.');
                 if (dot >= 0) {
-                    mime = (String) theMimeTypes.get(f.getCanonicalPath().substring(dot + 1).toLowerCase());
+                    mime = theMimeTypes.get(f.getCanonicalPath().substring(dot + 1).toLowerCase());
                 }
                 if (mime == null) {
                     mime = MIME_DEFAULT_BINARY;

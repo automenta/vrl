@@ -52,15 +52,10 @@
 
 package vrl.visual;
 
-import vrl.reflection.Pair;
 import java.awt.Component;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.LayoutManager2;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
-import java.awt.event.ContainerEvent;
-import java.awt.event.ContainerListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 import javax.swing.BoxLayout;

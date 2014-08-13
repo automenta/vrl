@@ -52,7 +52,6 @@
 
 package vrl.io.vrlx;
 
-import vrl.io.vrlx.FileVersionInfo;
 import vrl.visual.Canvas;
 import vrl.visual.MessageBox;
 import vrl.visual.MessageType;

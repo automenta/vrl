@@ -56,7 +56,6 @@ import vrl.annotation.TypeInfo;
 import vrl.dialogs.FileDialogManager;
 import vrl.io.VFileFilter;
 import vrl.reflection.LayoutType;
-import vrl.reflection.RepresentationType;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.VBoxLayout;
 import vrl.visual.VTextField;

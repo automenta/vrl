@@ -36,7 +36,6 @@
 
 package vrl.workflow.io;
 
-import vrl.workflow.Connections;
 import vrl.workflow.VisualizationRequest;
 
 /**

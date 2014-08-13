@@ -50,13 +50,6 @@
 
 package vrl.lang.model;
 
-import vrl.lang.model.Scope;
-import vrl.lang.model.IType;
-import vrl.lang.model.MethodDeclaration;
-import vrl.lang.model.IModifiers;
-import vrl.lang.model.IParameters;
-import vrl.lang.model.IParameter;
-
 /**
  *
  * @author Michael Hoffer &lt;info@michaelhoffer.de&gt;

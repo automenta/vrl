@@ -111,6 +111,7 @@ import javafx.stage.WindowEvent;
 import org.apache.commons.io.monitor.FileAlterationListenerAdaptor;
 import org.apache.commons.io.monitor.FileAlterationMonitor;
 import org.apache.commons.io.monitor.FileAlterationObserver;
+import vrl.workflow.VisibleState;
 
 /**
  * FXML Controller class
@@ -364,7 +365,7 @@ public class MainWindowController implements Initializable {
             for (Scope scope : sList) {
                 scope.generateDataFlow();
                 scope.addEventHandler(CodeEventType.CHANGE, evt -> {
-                    updateCode((CompilationUnitDeclaration) UIBinding.scopes.values().
+                    updateCode(UIBinding.scopes.values().
                             iterator().next().get(0));
                 });
             }
@@ -727,7 +728,7 @@ class LayoutData {
         this.height = n.getHeight();
 
         if (n instanceof VFlowModel) {
-            this.contentVisible = ((VFlowModel) n).isVisible();
+            this.contentVisible = ((VisibleState) n).isVisible();
         } else {
             this.contentVisible = true;
         }
@@ -804,7 +805,7 @@ class LayoutData {
         n.setHeight(height);
 
         if (n instanceof VFlowModel) {
-            ((VFlowModel) n).setVisible(contentVisible);
+            ((VisibleState) n).setVisible(contentVisible);
         }
     }
 }

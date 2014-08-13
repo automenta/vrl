@@ -52,7 +52,6 @@
 
 package vrl.visual;
 
-import java.awt.Color;
 import java.awt.Component;
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;

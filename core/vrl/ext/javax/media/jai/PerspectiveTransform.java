@@ -218,10 +218,7 @@ public final class PerspectiveTransform implements Cloneable, Serializable {
                                                        float x1, float y1,
                                                        float x2, float y2,
                                                        float x3, float y3) {
-        return getSquareToQuad((double)x0, (double)y0,
-                               (double)x1, (double)y1,
-                               (double)x2, (double)y2,
-                               (double)x3, (double)y3);
+        return getSquareToQuad(x0, y0, x1, y1, x2, y2, x3, y3);
     }
 
 
@@ -261,10 +258,7 @@ public final class PerspectiveTransform implements Cloneable, Serializable {
                                                        float x1, float y1,
                                                        float x2, float y2,
                                                        float x3, float y3) {
-        return getQuadToSquare((double)x0, (double)y0,
-                               (double)x1, (double)y1,
-                               (double)x2, (double)y2,
-                               (double)x3, (double)y3);
+        return getQuadToSquare(x0, y0, x1, y1, x2, y2, x3, y3);
     }
 
     /**
@@ -316,14 +310,7 @@ public final class PerspectiveTransform implements Cloneable, Serializable {
                                                      float x1p, float y1p,
                                                      float x2p, float y2p,
                                                      float x3p, float y3p) {
-        return getQuadToQuad((double)x0, (double)y0,
-                              (double)x1, (double)y1,
-                              (double)x2, (double)y2,
-                              (double)x3, (double)y3,
-                              (double)x0p, (double)y0p,
-                              (double)x1p, (double)y1p,
-                              (double)x2p, (double)y2p,
-                              (double)x3p, (double)y3p);
+        return getQuadToQuad(x0, y0, x1, y1, x2, y2, x3, y3, x0p, y0p, x1p, y1p, x2p, y2p, x3p, y3p);
     }
 
     /**

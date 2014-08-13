@@ -367,8 +367,8 @@ public class CellularFilter extends WholeImageFilter implements Function2D, Clon
 				}
 				break;
 			}
-			float dx = (float)Math.abs(x-px);
-			float dy = (float)Math.abs(y-py);
+			float dx = Math.abs(x-px);
+			float dy = Math.abs(y-py);
 			float d;
 			dx *= weight;
 			dy *= weight;
@@ -517,8 +517,8 @@ public class CellularFilter extends WholeImageFilter implements Function2D, Clon
 
 	public Object clone() {
 		CellularFilter f = (CellularFilter)super.clone();
-		f.coefficients = (float[])coefficients.clone();
-		f.results = (Point[])results.clone();
+		f.coefficients = coefficients.clone();
+		f.results = results.clone();
 		f.random = new Random();
 //		if (colormap != null)
 //			f.colormap = (Colormap)colormap.clone();

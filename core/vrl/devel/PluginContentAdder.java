@@ -61,7 +61,6 @@ import vrl.annotation.ObjectInfo;
 import vrl.annotation.ParamInfo;
 import vrl.io.IOUtil;
 import vrl.reflection.VisualCanvas;
-import vrl.system.PluginDataController;
 import vrl.types.CanvasRequest;
 import vrl.visual.Message;
 import vrl.visual.MessageType;
@@ -70,7 +69,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

@@ -57,15 +57,11 @@ import vrl.dialogs.FileDialogManager;
 import vrl.reflection.LayoutType;
 import vrl.reflection.RepresentationType;
 import vrl.reflection.TypeRepresentationBase;
-import vrl.visual.TransparentLabel;
 import vrl.visual.VBoxLayout;
 import vrl.visual.VTextField;
 import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 
-import javax.swing.JButton;
 
 /**
  * TypeRepresentation for <code>java.io.File</code>.

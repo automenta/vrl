@@ -58,7 +58,6 @@ package vrl.reflection;
  * DragListDemo.java example.
  */
 import java.awt.datatransfer.*;
-import java.awt.dnd.*;
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreePath;

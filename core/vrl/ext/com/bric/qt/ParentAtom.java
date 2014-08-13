@@ -67,7 +67,7 @@ class ParentAtom extends Atom {
 	}
 
 	public TreeNode getChildAt(int childIndex) {
-		return (TreeNode)children.get(childIndex);
+		return children.get(childIndex);
 	}
 
 	public int getChildCount() {
@@ -85,7 +85,7 @@ class ParentAtom extends Atom {
 	protected long getSize() {
 		long sum = 8;
 		for(int a = 0; a<children.size(); a++) {
-			Atom atom = (Atom)children.get(a);
+			Atom atom = children.get(a);
 			sum += atom.getSize();
 		}
 		return sum;
@@ -97,7 +97,7 @@ class ParentAtom extends Atom {
 
 	protected void writeContents(GuardedOutputStream out) throws IOException {
 		for(int a = 0; a<children.size(); a++) {
-			Atom atom = (Atom)children.get(a);
+			Atom atom = children.get(a);
 			atom.write(out);
 		}
 	}

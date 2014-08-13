@@ -49,10 +49,6 @@
  */
 package vrl.lang.model;
 
-import vrl.lang.model.CommentType;
-import vrl.lang.model.Comment;
-import vrl.lang.model.ICodeRange;
-import vrl.lang.model.Scope;
 import vrl.workflow.VNode;
 
 /**

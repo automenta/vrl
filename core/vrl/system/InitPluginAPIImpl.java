@@ -60,7 +60,6 @@ import vrl.io.ProjectFileFilter;
 import vrl.reflection.VisualCanvas;
 import vrl.visual.Action;
 import vrl.visual.MessageType;
-import vrl.visual.VSwingUtil;
 import java.awt.event.ActionEvent;
 import java.io.File;
 import java.io.FileNotFoundException;

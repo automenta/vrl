@@ -53,7 +53,6 @@
 package vrl.io.vrlx;
 
 import vrl.system.AbstractPluginDependency;
-import vrl.system.Constants;
 import java.util.ArrayList;
 import java.util.Collection;
 

@@ -64,18 +64,11 @@ import vrl.visual.Canvas;
 import vrl.visual.CanvasWindow;
 import vrl.visual.Task;
 import vrl.visual.WindowContentProvider;
-import vrl.visual.TransparentPanel;
 import vrl.visual.VButton;
 import vrl.visual.VContainer;
 import java.awt.Component;
-import java.awt.Container;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
 import java.util.ArrayList;
 import javax.swing.Box;
-import javax.swing.JButton;
 
 /**
  * An abstract ui is a content provider for UIWindow objects. It is also used

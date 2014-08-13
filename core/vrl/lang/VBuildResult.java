@@ -53,7 +53,6 @@
 package vrl.lang;
 
 import java.util.Collection;
-import org.apache.tools.ant.BuildException;
 
 /**
  *

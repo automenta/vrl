@@ -54,7 +54,6 @@ package vrl.lang;
 
 import vrl.system.VSysUtil;
 import vrl.visual.VTextPane;
-import groovyjarjarantlr.CharBuffer;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Toolkit;
@@ -72,14 +71,9 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.*;
-import javax.swing.event.CaretEvent;
-import javax.swing.event.CaretListener;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultEditorKit;
 import javax.swing.text.Document;
-import org.apache.tools.ant.taskdefs.condition.IsLastModified;
 
 public class ShellView {
 

@@ -560,7 +560,7 @@ public class ImageMath {
 		for (j = 0; j < length; j++) {
 			while (out[i+1] < j)
 				i++;
-			in[j] = i + (float) (j - out[i]) / (out[i + 1] - out[i]);
+			in[j] = i + (j - out[i]) / (out[i + 1] - out[i]);
 //			in[j] = ImageMath.clamp( in[j], 0, length-1 );
 		}
 		in[length] = length;

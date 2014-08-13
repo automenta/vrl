@@ -102,7 +102,7 @@ public class StringType extends VTextFieldBasedTypeRepresentation {
                 
                 if (v == null 
                         || (v instanceof String && ((String)v).isEmpty())) {
-                    setViewValue((String) property);
+                    setViewValue(property);
                 }
             }
         }

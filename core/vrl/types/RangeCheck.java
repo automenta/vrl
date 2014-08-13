@@ -53,8 +53,6 @@
 package vrl.types;
 
 import vrl.reflection.TypeRepresentationBase;
-import vrl.reflection.VisualCanvas;
-import vrl.visual.MessageBox;
 import groovy.lang.Script;
 
 /**

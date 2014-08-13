@@ -52,7 +52,6 @@
 package vrl.lang.visual;
 
 import vrl.io.VJarUtil;
-import vrl.system.PluginConfigurator;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -55,8 +55,6 @@ package vrl.types;
 import vrl.reflection.TypeTemplate;
 import vrl.annotation.TypeInfo;
 import vrl.math.Function3D;
-import vrl.reflection.TypeRepresentationBase;
-import vrl.types.ObjectSilentType;
 
 /**
  * TypeRepresentation for <code>eu.mihosoft.vrl.types.Function2D</code>.

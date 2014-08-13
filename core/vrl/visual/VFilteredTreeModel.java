@@ -184,7 +184,7 @@ public class VFilteredTreeModel extends DefaultTreeModel {
         for (int i = 0, cnt = 0; i < node.getChildCount(); i++) {
 
             FilterNodeInfo info =
-                    filterInfo.get((DefaultMutableTreeNode) node.getChildAt(i));
+                    filterInfo.get((Object) node.getChildAt(i));
 
             if (info == null || info.isMatches()) {
                 if (cnt++ == index) {
@@ -217,7 +217,7 @@ public class VFilteredTreeModel extends DefaultTreeModel {
 
             FilterNodeInfo info =
                     filterInfo.get(
-                    (DefaultMutableTreeNode) children.nextElement());
+                    (Object) children.nextElement());
 
             if (info == null || info.isMatches()) {
                 childCount++;

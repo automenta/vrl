@@ -51,7 +51,6 @@
  */
 package vrl.visual;
 
-import vrl.system.Constants;
 import vrl.system.VMessage;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -426,7 +425,7 @@ public class IDArrayList<E extends IDObject> extends ArrayList<E> {
 
             if (o instanceof IDObject) {
 
-                result = super.remove((E) o);
+                result = super.remove(o);
             }
 
             updateToolTips();

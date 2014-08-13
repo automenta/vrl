@@ -1198,24 +1198,24 @@ class VGroovyCodeVisitor extends org.codehaus.groovy.ast.ClassCodeVisitorSupport
         } else if (e instanceof MethodCallExpression) {
             System.out.println("TYPE: " + e);
             visitMethodCallExpression((MethodCallExpression) e);
-            result = Argument.invArg(returnVariables.get((MethodCallExpression) e));
+            result = Argument.invArg(returnVariables.get(e));
         } else if (e instanceof ConstructorCallExpression) {
             System.out.println("TYPE: " + e);
-            System.out.println("CONSTRUCTOR: " + returnVariables.get((ConstructorCallExpression) e));
+            System.out.println("CONSTRUCTOR: " + returnVariables.get(e));
             visitConstructorCallExpression((ConstructorCallExpression) e);
-            result = Argument.invArg(returnVariables.get((ConstructorCallExpression) e));
+            result = Argument.invArg(returnVariables.get(e));
         } else if (e instanceof BinaryExpression) {
             System.out.println("TYPE: " + e);
-            System.out.println("BINARY-EXPR: " + returnVariables.get((BinaryExpression) e));
+            System.out.println("BINARY-EXPR: " + returnVariables.get(e));
             System.out.println("ARG: " + stateMachine.getBoolean("convert-argument"));
             visitBinaryExpression((BinaryExpression) e);
-            result = Argument.invArg(returnVariables.get((BinaryExpression) e));
+            result = Argument.invArg(returnVariables.get(e));
         } else if (e instanceof NotExpression) {
             System.out.println("TYPE: " + e);
-            System.out.println("NOT-EXPR: " + returnVariables.get((NotExpression) e));
+            System.out.println("NOT-EXPR: " + returnVariables.get(e));
             System.out.println("ARG: " + stateMachine.getBoolean("convert-argument"));
             visitNotExpression((NotExpression) e);
-            result = Argument.invArg(returnVariables.get((NotExpression) e));
+            result = Argument.invArg(returnVariables.get(e));
         } else // if nothing worked so far, we assumen null arg
         if (result == null) {
             System.err.println(" -> UNSUPPORTED-ARG: " + e);

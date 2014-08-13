@@ -54,9 +54,7 @@ package vrl.types;
 
 import vrl.annotation.TypeInfo;
 import vrl.reflection.TypeRepresentationBase;
-import vrl.visual.ResizableContainer;
 import vrl.visual.VContainer;
-import vrl.visual.VSwingUtil;
 import java.awt.Dimension;
 import javax.swing.JComponent;
 

@@ -52,7 +52,6 @@
 
 package vrl.main;
 
-import vrl.visual.VGraphicsUtil;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

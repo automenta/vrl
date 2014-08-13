@@ -54,7 +54,6 @@ package vrl.visual;
 
 import vrl.system.VParamUtil;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 import java.awt.geom.RoundRectangle2D;
 import java.awt.image.BufferedImage;
 import javax.swing.JComponent;
@@ -369,7 +368,7 @@ class DialogBackgroundPainter implements
 //                    "Only \"CanvasWindow\" is supported as parent!");
 //        }
 
-        this.parent = (VComponent) parent;
+        this.parent = parent;
     }
 
     @Override

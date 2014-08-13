@@ -36,12 +36,10 @@
 
 package vrl.workflow.demo.demo;
 
-import vrl.workflow.Connections;
 import vrl.workflow.FlowFactory;
 import vrl.workflow.VFlow;
 import vrl.workflow.VNode;
 import vrl.workflow.NodeLookup;
-import vrl.workflow.VConnections;
 
 /**
  *

@@ -52,11 +52,9 @@
 
 package vrl.visual;
 
-import vrl.animation.Animation;
 import vrl.animation.AnimationGroup;
 import vrl.animation.AnimationTask;
 import vrl.animation.BackgroundAnimation;
-import vrl.animation.ForegroundAnimation;
 import vrl.animation.FrameListener;
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
@@ -78,18 +76,14 @@ import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.geom.AffineTransform;
 import java.awt.geom.Area;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RoundRectangle2D;
 import java.util.EnumMap;
-import java.util.HashMap;
 import java.util.Map;
 import javax.swing.JComponent;
-import javax.swing.JPopupMenu;
 import javax.swing.SwingUtilities;
 
 /**

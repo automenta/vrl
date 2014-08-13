@@ -52,8 +52,6 @@
 
 package vrl.visual;
 
-import vrl.effects.EffectManager;
-import vrl.effects.EffectPainter;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.io.Serializable;

@@ -52,7 +52,6 @@
 
 package vrl.animation;
 
-import vrl.visual.Connection;
 import java.awt.Color;
 
 /**

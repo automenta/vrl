@@ -52,7 +52,6 @@
 
 package vrl.reflection;
 
-import vrl.visual.Canvas;
 import vrl.visual.MessageBox;
 import vrl.visual.MessageType;
 import java.lang.reflect.InvocationTargetException;

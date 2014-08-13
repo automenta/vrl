@@ -52,7 +52,6 @@
 
 package vrl.reflection;
 
-import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JLabel;
 import vrl.visual.Canvas;

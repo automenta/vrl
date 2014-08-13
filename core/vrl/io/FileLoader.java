@@ -52,7 +52,6 @@
 
 package vrl.io;
 
-import vrl.visual.Task;
 import java.io.File;
 import java.io.IOException;
 

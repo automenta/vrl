@@ -54,7 +54,6 @@ package vrl.types;
 
 import vrl.reflection.TypeTemplate;
 import vrl.annotation.TypeInfo;
-import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.MessageViewer;
 
 /**

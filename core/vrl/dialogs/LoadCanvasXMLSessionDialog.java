@@ -52,17 +52,6 @@
 
 package vrl.dialogs;
 
-import vrl.io.CanvasXMLSessionFilter;
-import vrl.io.CanvasXMLSessionLoader;
-import vrl.io.LoadSessionListener;
-import vrl.reflection.TypeRepresentation;
-import vrl.reflection.TypeRepresentationBase;
-import vrl.reflection.VisualCanvas;
-import vrl.visual.Canvas;
-import java.awt.Component;
-import java.io.File;
-import java.util.ArrayList;
-
 /**
  * A dialog for loading XML canvas sessions. This is the recommended way
  * to load VRL sessions. It is well supported and replaces the binary session

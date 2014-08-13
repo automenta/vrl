@@ -52,14 +52,12 @@
 
 package vrl.reflection;
 
-import vrl.system.VRL;
 import vrl.visual.TransparentPanel;
 import vrl.visual.VButton;
 import vrl.visual.VFilter;
 import vrl.visual.VFilteredTreeModel;
 import vrl.visual.VScrollPane;
 import vrl.visual.VStringFilter;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

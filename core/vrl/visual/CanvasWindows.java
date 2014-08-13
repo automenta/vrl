@@ -55,7 +55,6 @@ package vrl.visual;
 import vrl.animation.FrameListener;
 import vrl.effects.EffectPainter;
 import vrl.effects.FadeEffect;
-import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 

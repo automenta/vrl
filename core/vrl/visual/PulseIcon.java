@@ -57,7 +57,6 @@ import vrl.animation.AnimationInterpolation;
 import vrl.animation.AnimationTask;
 import vrl.animation.FrameListener;
 import vrl.animation.LinearInterpolation;
-import vrl.visual.ImageUtils;
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
 import java.awt.Color;

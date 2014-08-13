@@ -61,7 +61,7 @@ public class ErodeAlphaFilter extends PointFilter {
 	}
 
     public BufferedImage filter( BufferedImage src, BufferedImage dst ) {
-        dst = new GaussianFilter( (int)radius ).filter( src, null );
+        dst = new GaussianFilter( radius).filter( src, null );
         lowerThreshold = 255*(threshold - softness*0.5f);
         upperThreshold = 255*(threshold + softness*0.5f);
 		return super.filter(dst, dst);

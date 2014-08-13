@@ -53,8 +53,6 @@
 package vrl.visual;
 
 import java.util.ArrayList;
-import java.util.Queue;
-import java.util.Stack;
 
 /**
  * Clipboard for Canvas objects.

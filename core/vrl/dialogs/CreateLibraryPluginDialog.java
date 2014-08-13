@@ -55,9 +55,7 @@ package vrl.dialogs;
 import vrl.annotation.MethodInfo;
 import vrl.annotation.ObjectInfo;
 import vrl.annotation.ParamInfo;
-import vrl.lang.visual.ClassInfoObject;
 import vrl.reflection.VisualCanvas;
-import vrl.visual.VSwingUtil;
 import java.io.File;
 import java.util.ArrayList;
 

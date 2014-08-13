@@ -117,11 +117,11 @@ public class Base64 {
     /**
      * The equals sign (=) as a byte.
      */
-    private final static byte EQUALS_SIGN = (byte) '=';
+    private final static byte EQUALS_SIGN = '=';
     /**
      * The new line character (\n) as a byte.
      */
-    private final static byte NEW_LINE = (byte) '\n';
+    private final static byte NEW_LINE = '\n';
     /**
      * Preferred encoding.
      */

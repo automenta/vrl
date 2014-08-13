@@ -50,7 +50,6 @@
 
 package vrl.base;
 
-import java.io.ObjectStreamClass;
 import java.lang.reflect.Array;
 import java.util.HashMap;
 import java.util.Map;

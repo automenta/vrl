@@ -55,7 +55,6 @@ package vrl.math;
 import groovy.lang.GroovyShell;
 import groovy.lang.Script;
 import java.io.Serializable;
-import java.util.HashMap;
 
 /**
  * <p>

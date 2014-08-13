@@ -55,7 +55,6 @@ import vrl.animation.Animation;
 import vrl.animation.AnimationManager;
 import vrl.animation.FrameListener;
 import vrl.animation.LinearInterpolation;
-import vrl.visual.ImageUtils;
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
 import java.awt.Dimension;
@@ -268,10 +267,8 @@ public class Dock extends VComponent implements BufferedPainter,
             // define the shape that is created by adding rectangular shape to 
             // round rectangle
             shape2 = new Rectangle2D.Double(
-                    (double) left,
-                    (double) top + arcHeight,
-                    (double) (getWidth() - left - right + 1),
-                    (double) (getHeight() - top - bottom - arcHeight + 1));
+                    left,
+                    (double) top + arcHeight, (getWidth() - left - right + 1), (getHeight() - top - bottom - arcHeight + 1));
 
             objectOne = new Area(shape);
             objectTwo = new Area(shape2);

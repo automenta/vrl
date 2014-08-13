@@ -168,7 +168,7 @@ public abstract class NumberBasedTypeRepresentation
 
             if (property != null) {
                 if (getViewValueWithoutValidation() == null) {
-                    setViewValue((Number) property);
+                    setViewValue(property);
                 }
             }
         }

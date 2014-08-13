@@ -52,7 +52,6 @@
 
 package vrl.dialogs;
 
-import vrl.io.CanvasXMLSessionFilter;
 import java.awt.Component;
 import javax.swing.JOptionPane;
 

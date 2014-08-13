@@ -53,18 +53,12 @@
 package vrl.io.vrlx;
 
 import vrl.reflection.ControlFlowValueObject;
-import vrl.reflection.MethodIdentifier;
-import vrl.reflection.DefaultMethodRepresentation;
 import vrl.reflection.DefaultObjectRepresentation;
 import vrl.reflection.ObjectIdentifier;
-import vrl.reflection.TypeRepresentationContainer;
 import vrl.reflection.VisualCanvas;
-import vrl.visual.CanvasChild;
 import vrl.visual.Connection;
 import vrl.visual.Connections;
 import vrl.visual.Connector;
-import vrl.visual.Message;
-import vrl.visual.MessageType;
 
 /**
  * Defines a connection between two type representations. Abstract connections

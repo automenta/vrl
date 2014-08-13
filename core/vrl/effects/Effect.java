@@ -55,7 +55,6 @@ package vrl.effects;
 import vrl.animation.Animation;
 import vrl.visual.BufferedPainter;
 import java.awt.image.BufferedImage;
-import java.io.Serializable;
 
 /**
  * <p>

@@ -215,7 +215,7 @@ public class WoodFilter extends PointFilter {
 		f = (f * 0.5f) + 0.5f;
 
         f *= rings*50;
-        f = f-(int)f;
+        f = f-f;
         f *= 1-ImageMath.smoothStep(gain, 1.0f, f);
 
         f += fibres*Noise.noise2(nx*scale, ny*50);

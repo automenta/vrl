@@ -53,7 +53,6 @@
 package vrl.visual;
 
 import java.awt.Graphics;
-import java.awt.Insets;
 import javax.swing.JLabel;
 
 /**

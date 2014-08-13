@@ -57,6 +57,7 @@ import vrl.visual.FullScreenComponent;
 import vrl.visual.VBoxLayout;
 import groovy.lang.Script;
 import java.awt.Dimension;
+import java.awt.Image;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
@@ -160,7 +161,7 @@ public class BufferedImageType extends TypeRepresentationBase
     @Override
     public void setViewValue(Object o) {
         setDataOutdated();
-        plotPane.setImage((BufferedImage) o);
+        plotPane.setImage((Image) o);
     }
 
     @Override

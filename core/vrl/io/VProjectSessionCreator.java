@@ -54,7 +54,6 @@ package vrl.io;
 
 import vrl.system.VParamUtil;
 import vrl.system.VRL;
-import vrl.visual.Message;
 import vrl.visual.VDialog;
 import java.io.File;
 import java.io.IOException;

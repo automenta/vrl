@@ -174,7 +174,7 @@ public class ColorType extends TypeRepresentationBase {
 
             if (property != null && !getMainCanvas().isLoadingSession()) {
 
-                setViewValue((Color) property);
+                setViewValue(property);
 
             }
         }

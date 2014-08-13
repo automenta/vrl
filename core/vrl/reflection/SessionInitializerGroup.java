@@ -54,7 +54,6 @@ package vrl.reflection;
 
 import vrl.io.vrlx.SessionInitializer;
 import vrl.visual.Canvas;
-import java.util.ArrayList;
 import java.util.HashSet;
 
 /**

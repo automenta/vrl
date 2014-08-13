@@ -52,7 +52,6 @@
 package vrl.io;
 
 import vrl.dialogs.FileDialogManager;
-import vrl.visual.VDialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
@@ -62,7 +61,6 @@ import java.io.*;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.Action;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 

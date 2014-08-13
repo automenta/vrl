@@ -92,7 +92,7 @@ public class ClipboardUtil {
 
             for (TypeRepresentationBase t : params) {
                 try {
-                    valueData.add(new AbstractParameter((TypeRepresentationBase) t));
+                    valueData.add(new AbstractParameter(t));
                 } catch (Exception ex) {
 
                     ex.printStackTrace(System.err);

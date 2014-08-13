@@ -52,23 +52,13 @@
 
 package vrl.visual;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.PrintStream;
-import java.nio.channels.NonWritableChannelException;
 import java.util.ArrayList;
 import javax.swing.AbstractAction;
 import javax.swing.ActionMap;
 import javax.swing.InputMap;
 import javax.swing.KeyStroke;
 import javax.swing.UIManager;
-import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.AbstractDocument;
@@ -83,10 +73,7 @@ import javax.swing.text.Element;
 import javax.swing.text.IconView;
 import javax.swing.text.JTextComponent;
 import javax.swing.text.LabelView;
-import javax.swing.text.MutableAttributeSet;
-import javax.swing.text.ParagraphView;
 import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
 import javax.swing.text.StyledEditorKit;
 import javax.swing.text.TextAction;
 import javax.swing.text.View;

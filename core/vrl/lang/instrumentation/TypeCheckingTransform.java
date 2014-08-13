@@ -20,7 +20,6 @@ package vrl.lang.instrumentation;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import groovy.transform.CompilationUnitAware;
 import org.codehaus.groovy.ast.ASTNode;
 import org.codehaus.groovy.ast.AnnotatedNode;
 import org.codehaus.groovy.ast.AnnotationNode;
@@ -38,7 +37,6 @@ import org.codehaus.groovy.transform.stc.StaticTypeCheckingVisitor;
 
 import java.util.Collections;
 import java.util.Map;
-import org.codehaus.groovy.transform.ASTTransformation;
 import org.codehaus.groovy.transform.GroovyASTTransformation;
 import org.codehaus.groovy.transform.StaticTypesTransformation;
 

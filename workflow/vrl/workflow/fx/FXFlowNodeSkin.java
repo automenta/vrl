@@ -36,7 +36,6 @@
 package vrl.workflow.fx;
 
 import vrl.workflow.Connector;
-import vrl.workflow.MouseButton;
 import vrl.workflow.VFlow;
 import vrl.workflow.VNode;
 import vrl.workflow.skin.VNodeSkin;

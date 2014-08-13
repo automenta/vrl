@@ -55,7 +55,6 @@ package vrl.dialogs;
 import vrl.io.CanvasBinarySessionLoader;
 import vrl.io.CanvasXMLSessionFilter;
 import vrl.visual.Canvas;
-import java.awt.Component;
 
 /**
  * A dialog for loading binary canvas sessions.

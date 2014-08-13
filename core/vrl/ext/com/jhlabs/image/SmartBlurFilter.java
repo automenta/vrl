@@ -16,9 +16,7 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
 import java.awt.image.*;
-import java.awt.geom.*;
 
 /**
  * A filter which performs a "smart blur". i.e. a blur which blurs smotth parts of the image while preserving edges.

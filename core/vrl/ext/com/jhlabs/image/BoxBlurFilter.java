@@ -16,9 +16,7 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
 import java.awt.image.*;
-import java.awt.geom.*;
 
 /**
  * A filter which performs a box blur on an image. The horizontal and vertical blurs can be specified separately
@@ -147,7 +145,7 @@ public class BoxBlurFilter extends AbstractBufferedImageOp {
     }
         
     public static void blurFractional( int[] in, int[] out, int width, int height, float radius ) {
-        radius -= (int)radius;
+        radius -= radius;
         float f = 1.0f/(1+2*radius);
         int inIndex = 0;
         

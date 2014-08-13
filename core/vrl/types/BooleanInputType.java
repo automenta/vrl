@@ -53,18 +53,13 @@
 package vrl.types;
 
 import vrl.annotation.TypeInfo;
-import vrl.reflection.RepresentationType;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.VBoxLayout;
 import vrl.visual.VSwingUtil;
 import groovy.lang.Script;
-import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JCheckBox;
-import javax.swing.JRadioButton;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 
 /**
  * TypeRepresentation for

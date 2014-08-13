@@ -53,7 +53,6 @@
 package vrl.lang.visual;
 
 import org.fife.ui.autocomplete.BasicCompletion;
-import org.fife.ui.autocomplete.Completion;
 import org.fife.ui.autocomplete.CompletionProvider;
 
 /**

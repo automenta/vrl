@@ -57,6 +57,7 @@ import vrl.visual.VBoxLayout;
 import groovy.lang.Script;
 import java.awt.Component;
 import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * <p>
@@ -124,7 +125,7 @@ public class IntegerSelectionInputType extends SelectionInputType {
 
             if (property != null) {
                 if (getViewValueWithoutValidation() == null) {
-                    super.setViewValue(new Selection((ArrayList<?>) property));
+                    super.setViewValue(new Selection((Collection<?>) property));
                 }
             }
         }

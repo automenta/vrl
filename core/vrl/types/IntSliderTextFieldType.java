@@ -53,7 +53,6 @@
 package vrl.types;
 
 import vrl.annotation.TypeInfo;
-import vrl.reflection.RepresentationType;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.VTextField;
 import vrl.visual.MessageBox;
@@ -99,7 +98,7 @@ public class IntSliderTextFieldType extends TypeRepresentationBase {
                 super.setValue(i);
 
                 if (i == getValue() || i > getMaximum() || i < getMinimum()) {
-                    int userValue = (int) this.getValue();
+                    int userValue = this.getValue();
                     setNewValue(userValue);
                     sliderTextField.setText("" + userValue);
                 }
@@ -183,7 +182,7 @@ public class IntSliderTextFieldType extends TypeRepresentationBase {
         public void stateChanged(ChangeEvent ce) {
             JSlider source = (JSlider) ce.getSource();
 //            if (!source.getValueIsAdjusting()) {
-            int userValue = (int) source.getValue();
+            int userValue = source.getValue();
             setNewValue(userValue);
             sliderTextField.setText("" + userValue);
 //            }

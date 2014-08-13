@@ -54,10 +54,7 @@ package vrl.dialogs;
 
 import vrl.reflection.VisualCanvas;
 import vrl.visual.Canvas;
-import vrl.visual.Message;
 import vrl.visual.VDialog;
-import java.awt.Component;
-import javax.swing.JOptionPane;
 
 /**
  *

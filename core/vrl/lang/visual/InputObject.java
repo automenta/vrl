@@ -57,7 +57,6 @@ import vrl.annotation.MethodInfo;
 import vrl.annotation.ObjectInfo;
 import vrl.annotation.ParamInfo;
 import java.io.Serializable;
-import java.util.Collection;
 
 /**
  *

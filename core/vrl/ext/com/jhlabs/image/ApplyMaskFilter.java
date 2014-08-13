@@ -16,9 +16,7 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
 import java.awt.image.*;
-import java.util.*;
 
 /**
  * A filter which uses the alpha channel of a "mask" image to interpolate between a source and destination image.

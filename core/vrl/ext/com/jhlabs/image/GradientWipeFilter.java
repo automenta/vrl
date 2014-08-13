@@ -17,7 +17,6 @@ limitations under the License.
 package vrl.ext.com.jhlabs.image;
 
 import java.awt.image.*;
-import java.util.*;
 
 /**
  * A filter which can be used to produce wipes by transferring the luma of a mask image into the alpha channel of the source.

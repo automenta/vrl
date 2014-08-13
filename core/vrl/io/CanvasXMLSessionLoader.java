@@ -52,20 +52,9 @@
 
 package vrl.io;
 
-import vrl.animation.AnimationTask;
-import vrl.io.vrlx.VRLXSessionController;
-import vrl.io.vrlx.VRLXReflection;
-import vrl.reflection.VisualCanvas;
 import vrl.visual.Style;
-import vrl.visual.Task;
-import java.awt.Color;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.SwingUtilities;
 
 /**
  * XML session loader. This is the recommended way to load VRL sessions. It

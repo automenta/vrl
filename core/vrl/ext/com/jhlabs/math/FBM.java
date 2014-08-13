@@ -36,7 +36,7 @@ public class FBM implements Function2D {
 
 		exponents = new float[(int)octaves+1];
 		float frequency = 1.0f;
-		for (int i = 0; i <= (int)octaves; i++) {
+		for (int i = 0; i <= octaves; i++) {
 			exponents[i] = (float)Math.pow(frequency, -H);
 			frequency *= lacunarity;
 		}
@@ -59,13 +59,13 @@ public class FBM implements Function2D {
 		x += 371;
 		y += 529;
 		
-		for (i = 0; i < (int)octaves; i++) {
+		for (i = 0; i < octaves; i++) {
 			value += basis.evaluate(x, y) * exponents[i];
 			x *= lacunarity;
 			y *= lacunarity;
 		}
 
-		remainder = octaves - (int)octaves;
+		remainder = octaves - octaves;
 		if (remainder != 0)
 			value += remainder * basis.evaluate(x, y) * exponents[i];
 

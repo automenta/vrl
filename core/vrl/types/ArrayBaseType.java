@@ -565,7 +565,7 @@ public class ArrayBaseType extends TypeRepresentationBase {
                     // if we are not loading from file and we are an input
                     // we need to specify the index at wich the connector will
                     // be added to
-                    if (!((VisualCanvas) getMainCanvas()).isLoadingSession()
+                    if (!getMainCanvas().isLoadingSession()
                             && isInput()) {
                         mRep.getConnectors().add(connectorIndex, (VConnector) tCont.getTypeRepresentation().getConnector());
                     } else {
@@ -1060,7 +1060,7 @@ public class ArrayBaseType extends TypeRepresentationBase {
         }
 
         if (property != null) {
-            setHideButtonBox((boolean) (Boolean) property);
+            setHideButtonBox((Boolean) property);
 
             if (isInput()) {
                 buttonBox.setVisible(!isHideButtonBox());

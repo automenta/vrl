@@ -56,7 +56,6 @@ import vrl.visual.Canvas;
 import vrl.visual.MessageType;
 import vrl.visual.VDialog;
 import java.awt.Component;
-import javax.swing.JComponent;
 import javax.swing.JOptionPane;
 
 /**

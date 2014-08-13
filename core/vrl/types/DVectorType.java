@@ -54,12 +54,6 @@ package vrl.types;
 
 import vrl.reflection.TypeTemplate;
 import vrl.annotation.TypeInfo;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.GridLayout;
-import vrl.reflection.RepresentationType;
-import vrl.reflection.TypeRepresentation;
-import vrl.reflection.TypeRepresentationBase;
 
 /**
  * TypeRepresentation for <code>eu.mihosoft.vrl.types.DVector</code>.

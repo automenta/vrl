@@ -52,7 +52,6 @@
 
 package vrl.reflection;
 
-import vrl.annotation.ParamGroupInfo;
 import vrl.visual.CanvasLabel;
 import vrl.visual.CanvasWindow;
 import vrl.visual.Style;
@@ -67,7 +66,6 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.Polygon;
-import java.awt.PopupMenu;
 import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -77,7 +75,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -306,8 +303,8 @@ public class RepresentationGroup extends JPanel {
 
                     for (MenuElement mE : popupMenu.getSubElements()) {
                         if (mE instanceof JMenuItem) {
-                            if (((JMenuItem) mE).getText().contains("Paste")) {
-                                ((JMenuItem) mE).setEnabled(
+                            if (((AbstractButton) mE).getText().contains("Paste")) {
+                                ((Component) mE).setEnabled(
                                         ClipboardUtil.
                                         isClipboardContentCompatible(getParams()));
                             }

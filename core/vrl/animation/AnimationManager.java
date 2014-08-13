@@ -53,9 +53,7 @@
 package vrl.animation;
 
 import java.io.Serializable;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Deque;
 
 /**
  * AnimationManager manages animations. It is also responsible for repainting

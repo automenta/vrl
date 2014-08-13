@@ -53,7 +53,6 @@
 package vrl.types;
 
 
-import vrl.reflection.VisualObject;
 import vrl.visual.CanvasWindow;
 
 /**

@@ -52,7 +52,6 @@
 package vrl.reflection;
 
 import vrl.asm.CompilationUnit;
-import vrl.lang.InstanceCreator;
 import vrl.lang.VLangUtils;
 import vrl.lang.VWorkflowException;
 import vrl.lang.visual.ClassInfoObject;
@@ -63,19 +62,15 @@ import vrl.lang.visual.StopObject;
 import vrl.system.VParamUtil;
 import vrl.system.VRL;
 import vrl.visual.CanvasWindow;
-import vrl.visual.Connector;
 import vrl.visual.IDArrayList;
 import vrl.visual.IDArrayMap;
 import vrl.visual.IDTable;
 import vrl.visual.MessageBox;
 import vrl.visual.MessageType;
-import java.awt.Point;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * This class represents an object inspector that is connected to a visual

@@ -55,9 +55,6 @@ package vrl.types;
 import vrl.reflection.TypeTemplate;
 import vrl.annotation.TypeInfo;
 import vrl.lang.visual.VRLRequestType;
-import vrl.reflection.DefaultMethodRepresentation;
-import vrl.reflection.RepresentationType;
-import vrl.reflection.VisualCanvas;
 
 /**
  *

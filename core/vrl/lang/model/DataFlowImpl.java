@@ -255,7 +255,7 @@ class DataFlowImpl implements DataFlow {
 //                                    System.out.println("argIndex: " + argIndex + "argument: " + senderInv + ", recInv: " + receiverInv);
 
 //                        senderInv.getParent().generateDataFlow();
-                        ((ScopeImpl) senderInv.getParent()).generateDataFlow();
+                        senderInv.getParent().generateDataFlow();
                     } catch (Exception ex) {
                         ex.printStackTrace(System.err);
                     }

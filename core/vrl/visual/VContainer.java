@@ -52,14 +52,8 @@
 
 package vrl.visual;
 
-import vrl.visual.TransparentPanel;
 import java.awt.Component;
 import java.awt.Dimension;
-import javax.swing.Box;
-import javax.swing.JComponent;
-import javax.swing.JPanel;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 
 /**
  * VRL conainer is a transparent Swing container that uses horizontal box

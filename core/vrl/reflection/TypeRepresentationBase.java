@@ -1378,7 +1378,7 @@ public abstract class TypeRepresentationBase extends VComponent
             }
 
             if (property != null) {
-                serialization = (boolean) (Boolean) property;
+                serialization = (Boolean) property;
             }
 
         } catch (Exception ex) {

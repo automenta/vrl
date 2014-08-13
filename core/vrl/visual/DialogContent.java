@@ -52,7 +52,6 @@
 
 package vrl.visual;
 
-import java.awt.Component;
 import javax.swing.JComponent;
 
 /**

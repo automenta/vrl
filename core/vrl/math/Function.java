@@ -52,7 +52,6 @@
 
 package vrl.math;
 
-import vrl.types.DVector;
 import java.io.Serializable;
 
 

@@ -450,7 +450,7 @@ public abstract class Connector extends VComponent
         // the location because we then want the connection to start/stop at 
         // the title bar
         CanvasWindow object =
-                (CanvasWindow) getValueObject().getParentWindow();
+                getValueObject().getParentWindow();
 
         if (object.isResizing()) {
             int diffY = object.getY() + object.getInsets().top + getHeight() - location.y;

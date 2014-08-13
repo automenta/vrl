@@ -142,7 +142,7 @@ public class Main extends Application {
             n.setTitle("Node " + n.getId());
             
             // adding values between 0 and 100
-            n.getValueObject().setValue((int)(rand.nextDouble()*100.0));
+            n.getValueObject().setValue((rand.nextDouble()*100.0));
 
             for (int k = 0; k < connectionTypes.length; k++) {
                 String type = connectionTypes[k % connectionTypes.length];

@@ -16,9 +16,6 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
-import java.awt.image.*;
-
 public class Curve {
 	public float[] x;
 	public float[] y;
@@ -29,8 +26,8 @@ public class Curve {
 	}
 	
 	public Curve( Curve curve ) {
-		x = (float[])curve.x.clone();
-		y = (float[])curve.y.clone();
+		x = curve.x.clone();
+		y = curve.y.clone();
 	}
 	
 	public int addKnot( float kx, float ky ) {

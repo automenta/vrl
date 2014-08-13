@@ -52,9 +52,6 @@
 
 package vrl.visual;
 
-import vrl.effects.Effect;
-import java.awt.Shape;
-
 /**
  * The purpose of the Selectable interface is to define VRL components as,
  * selectable, i.e., by pressing <b>CTRL+Left Mouse Btn.</b> the component will
@@ -82,4 +79,5 @@ public interface Selectable extends ShapeDescription{
 
 //    public Effect getColorizeEffect();
 //    public Effect getUncolorizeEffect();
+    
 }

@@ -54,7 +54,6 @@ package vrl.io.vrlx;
 
 import vrl.reflection.CustomParamData;
 import vrl.reflection.DefaultMethodRepresentation;
-import vrl.reflection.TypeRepresentation;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.MessageType;
 import java.util.ArrayList;
@@ -129,7 +128,7 @@ public class AbstractMethodRepresentation {
 
         for (TypeRepresentationBase t : mRep.getParameters()) {
             try {
-                valueData.add(new AbstractParameter((TypeRepresentationBase) t));
+                valueData.add(new AbstractParameter(t));
             } catch (Exception ex) {
 
                 ex.printStackTrace(System.err);

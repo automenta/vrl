@@ -52,14 +52,11 @@
 
 package vrl.dialogs;
 
-import vrl.io.CanvasConfigurator;
 import vrl.io.ProjectFileFilter;
 import vrl.io.VProjectController;
 import vrl.io.VProjectSessionLoader;
-import vrl.reflection.VisualCanvas;
 import java.awt.Component;
 import java.io.File;
-import javax.swing.JComponent;
 
 /**
  * A dialog for loading project sessions. This is the recommended way

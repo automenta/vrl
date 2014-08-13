@@ -52,7 +52,6 @@
 
 package vrl.types;
 
-import vrl.reflection.TypeRepresentationBase;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -62,10 +61,7 @@ import java.awt.image.BufferedImage;
 import java.io.Serializable;
 import javax.swing.JPanel;
 import vrl.visual.BufferedPainter;
-import vrl.visual.Canvas;
-import vrl.visual.Ruler;
 import java.awt.Image;
-import javax.swing.Box;
 
 
 /**

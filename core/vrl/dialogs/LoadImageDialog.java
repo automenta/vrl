@@ -55,7 +55,6 @@ package vrl.dialogs;
 import vrl.io.ImageFilter;
 import vrl.io.ImageLoader;
 import vrl.visual.Canvas;
-import java.awt.Component;
 import java.awt.image.BufferedImage;
 
 /**

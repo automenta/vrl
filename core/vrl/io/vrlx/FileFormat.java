@@ -53,7 +53,6 @@
 package vrl.io.vrlx;
 
 import vrl.visual.Canvas;
-import java.net.URI;
 
 /**
  * File format.

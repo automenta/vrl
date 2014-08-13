@@ -52,8 +52,6 @@
 
 package vrl.io.vrlx;
 
-import java.io.IOException;
-
 /**
  *
  * @author Michael Hoffer <info@michaelhoffer.de>

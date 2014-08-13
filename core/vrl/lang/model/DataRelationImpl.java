@@ -50,9 +50,6 @@
 
 package vrl.lang.model;
 
-import vrl.lang.model.DataRelation;
-import vrl.lang.model.Invocation;
-
 /**
  *
  * @author Michael Hoffer &lt;info@michaelhoffer.de&gt;

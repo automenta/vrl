@@ -52,7 +52,6 @@
 
 package vrl.types;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 
 /**

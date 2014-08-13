@@ -160,8 +160,8 @@ public class RippleFilter extends TransformFilter {
 	}
 
 	protected void transformInverse(int x, int y, float[] out) {
-		float nx = (float)y / xWavelength;
-		float ny = (float)x / yWavelength;
+		float nx = y / xWavelength;
+		float ny = x / yWavelength;
 		float fx, fy;
 		switch (waveType) {
 		case SINE:

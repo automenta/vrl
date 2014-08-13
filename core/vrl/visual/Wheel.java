@@ -127,8 +127,8 @@ public class Wheel extends JPanel {
                 BasicStroke.CAP_ROUND,
                 BasicStroke.JOIN_MITER));
 
-        final int centerX = (int) (getWidth() / 2);
-        final int centerY = (int) (getHeight() / 2);
+        final int centerX = (getWidth() / 2);
+        final int centerY = (getHeight() / 2);
 
         for (int i = 0; i < getNumberOfDots(); i++) {
 

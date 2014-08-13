@@ -52,9 +52,9 @@
 
 package vrl.visual;
 
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.DisplayMode;
+import java.awt.Frame;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
@@ -62,8 +62,6 @@ import java.awt.Window;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-import java.awt.geom.Rectangle2D;
-import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.border.Border;
 
@@ -275,7 +273,7 @@ public class VGraphicsUtil {
         if (graphicsDevice.isFullScreenSupported() && nativeSupport) {
 
             if (frame instanceof JFrame) {
-                ((JFrame) frame).setResizable(false);
+                ((Frame) frame).setResizable(false);
             }
 
 //            frame.setVisible(true);
@@ -327,7 +325,7 @@ public class VGraphicsUtil {
 
 
             if (frame instanceof JFrame) {
-                ((JFrame) frame).setResizable(true);
+                ((Frame) frame).setResizable(true);
             }
 //            frame.setVisible(true);
             //Make it happen!

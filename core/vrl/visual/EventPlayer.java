@@ -52,14 +52,6 @@
 
 package vrl.visual;
 
-import vrl.animation.AnimationTask;
-import java.awt.Component;
-import java.awt.KeyboardFocusManager;
-import java.awt.Toolkit;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
-
 /**
  *
  * @author Michael Hoffer <info@michaelhoffer.de>

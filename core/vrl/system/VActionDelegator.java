@@ -54,7 +54,6 @@ package vrl.system;
 
 import vrl.visual.Action;
 import vrl.visual.ActionDelegator;
-import vrl.visual.ActionGroup;
 import vrl.visual.MenuController;
 import vrl.visual.VMenuController;
 import vrl.visual.VSeparator;

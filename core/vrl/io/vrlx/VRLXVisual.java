@@ -57,7 +57,6 @@ import vrl.visual.CanvasWindow;
 import vrl.visual.Style;
 import vrl.visual.VDialogWindow;
 import vrl.visual.WindowGroups;
-import java.util.Collections;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

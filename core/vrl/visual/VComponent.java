@@ -275,7 +275,7 @@ public class VComponent extends EffectPanel
                 VSwingUtil.getAllChildren(this, VComponent.class);
 
         for (Component c : children) {
-            ((VComponent) c).setMainCanvas(mainCanvas);
+            ((CanvasChild) c).setMainCanvas(mainCanvas);
         }
 
         newCanvasAssigned(oldCanvas, mainCanvas);

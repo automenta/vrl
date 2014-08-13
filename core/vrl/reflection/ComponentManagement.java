@@ -52,11 +52,9 @@
 
 package vrl.reflection;
 
-import vrl.visual.Canvas;
 import vrl.visual.CanvasActionListener;
 import vrl.visual.CanvasWindow;
 import vrl.visual.ResizableContainer;
-import vrl.visual.VComponent;
 import vrl.visual.VDialog;
 import vrl.visual.VDialogContent;
 import vrl.visual.VDialogWindow;

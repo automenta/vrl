@@ -52,9 +52,6 @@
 
 package vrl.reflection;
 
-import vrl.annotation.MethodInfo;
-import vrl.annotation.ParamGroupInfo;
-
 /**
  *
  * @author Michael Hoffer <info@michaelhoffer.de>

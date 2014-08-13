@@ -58,7 +58,6 @@ import java.awt.Rectangle;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import javax.swing.JTextArea;
-import javax.swing.JTextPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;

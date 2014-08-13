@@ -75,7 +75,6 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ConvolveOp;
 import java.awt.image.Kernel;
 import javax.swing.ImageIcon;
-import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 
 /**

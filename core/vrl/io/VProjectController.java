@@ -425,8 +425,8 @@ public class VProjectController {
             canvasParent.remove(component);
 
             if (component instanceof VisualCanvas) {
-                ((VisualCanvas) component).dispose();
-                project.openedEntriesByCanvas.remove((VisualCanvas) component);
+                ((Canvas) component).dispose();
+                project.openedEntriesByCanvas.remove(component);
             }
         }
 
@@ -2905,7 +2905,7 @@ public class VProjectController {
             public void run() {
                 try {
                     File destFolder = new File(IOUtil.createTempDir(),
-                            dest.getName().substring(0, (int) dest.getName().length() - ".zip".length()));
+                            dest.getName().substring(0, dest.getName().length() - ".zip".length()));
 
                     destFolder.mkdirs();
 

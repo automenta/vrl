@@ -52,22 +52,8 @@
 
 package vrl.reflection;
 
-import vrl.annotation.ComponentInfo;
-import vrl.io.vrlx.AbstractCode;
-import vrl.lang.groovy.GroovyCompiler;
-import vrl.lang.groovy.GroovyCodeWindow;
-import vrl.dialogs.RemoveComponentDialog;
-import vrl.lang.InstanceCreator;
-import vrl.lang.VCompiler;
-import vrl.visual.CanvasWindow;
-import vrl.visual.Message;
-import vrl.visual.MessageType;
-import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.lang.annotation.Annotation;
-import java.util.ArrayList;
-import java.util.Collection;
 import javax.swing.JMenuItem;
 
 /**

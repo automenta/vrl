@@ -52,8 +52,6 @@
 
 package vrl.visual;
 
-import javax.swing.ImageIcon;
-
 /**
  *
  * @author Michael Hoffer <info@michaelhoffer.de>

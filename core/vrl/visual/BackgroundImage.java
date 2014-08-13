@@ -52,7 +52,6 @@
 
 package vrl.visual;
 
-import vrl.visual.ImageUtils;
 import vrl.io.Base64;
 import vrl.io.IOUtil;
 import vrl.io.ImageLoader;
@@ -61,10 +60,8 @@ import java.awt.Composite;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.RenderingHints;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
-import java.awt.image.VolatileImage;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

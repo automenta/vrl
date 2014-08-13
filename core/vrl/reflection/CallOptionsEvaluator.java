@@ -53,8 +53,6 @@
 package vrl.reflection;
 
 import vrl.annotation.MethodInfo;
-import vrl.visual.Canvas;
-import vrl.visual.CanvasWindow;
 import vrl.visual.MessageBox;
 import vrl.visual.MessageType;
 import java.util.ArrayList;

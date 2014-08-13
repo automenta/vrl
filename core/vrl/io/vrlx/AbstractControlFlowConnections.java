@@ -53,7 +53,6 @@
 package vrl.io.vrlx;
 
 import vrl.reflection.VisualCanvas;
-import vrl.visual.Connection;
 import vrl.visual.Connections;
 import vrl.visual.MessageType;
 import java.util.ArrayList;

@@ -20,7 +20,6 @@ import java.awt.*;
 import java.awt.image.*;
 import java.lang.reflect.*;
 import java.beans.*;
-import java.util.*;
 
 /**
  * A filter which uses another filter to perform a transition.

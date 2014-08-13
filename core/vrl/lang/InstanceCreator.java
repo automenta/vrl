@@ -54,7 +54,6 @@ package vrl.lang;
 
 import vrl.reflection.VisualCanvas;
 import vrl.visual.MessageType;
-import java.lang.reflect.Constructor;
 
 /**
  *

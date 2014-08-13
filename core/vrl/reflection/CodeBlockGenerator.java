@@ -54,7 +54,6 @@ package vrl.reflection;
 
 import vrl.io.vrlx.AbstractCode;
 import vrl.lang.CompilerProvider;
-import vrl.lang.VCompiler;
 import vrl.visual.Selectable;
 import vrl.visual.MessageBox;
 import vrl.visual.MessageType;

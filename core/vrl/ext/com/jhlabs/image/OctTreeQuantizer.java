@@ -18,8 +18,6 @@ package vrl.ext.com.jhlabs.image;
 
 import java.util.*;
 import java.io.*;
-import java.awt.*;
-import java.awt.image.*;
 
 /**
  * An image Quantizer based on the Octree algorithm. This is a very basic implementation
@@ -203,7 +201,7 @@ public class OctTreeQuantizer implements Quantizer {
 			Vector<OctTreeNode> v = colorList[level];
 			if (v != null && v.size() > 0) {
 				for (int j = 0; j < v.size(); j++) {
-					OctTreeNode node = (OctTreeNode)v.elementAt(j);
+					OctTreeNode node = v.elementAt(j);
 					if (node.children > 0) {
 						for (int i = 0; i < 8; i++) {
 							OctTreeNode child = node.leaf[i];

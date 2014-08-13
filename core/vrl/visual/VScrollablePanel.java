@@ -358,7 +358,7 @@ public class VScrollablePanel extends JPanel
 
 		if (getParent() instanceof JViewport)
 		{
-		    return (((JViewport)getParent()).getWidth() > getPreferredSize().width);
+		    return (getParent().getWidth() > getPreferredSize().width);
 		}
 
 		return false;
@@ -377,7 +377,7 @@ public class VScrollablePanel extends JPanel
 
 		if (getParent() instanceof JViewport)
 		{
-		    return (((JViewport)getParent()).getHeight() > getPreferredSize().height);
+		    return (getParent().getHeight() > getPreferredSize().height);
 		}
 
 		return false;

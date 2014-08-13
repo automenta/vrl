@@ -16,9 +16,6 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
-import java.awt.image.*;
-
 /**
  * An image histogram.
  */
@@ -101,9 +98,9 @@ public class Histogram {
 			for (int j = 0; j < 256; j++) {
 				minFrequency[i] = Math.min(minFrequency[i], histogram[i][j]);
 				maxFrequency[i] = Math.max(maxFrequency[i], histogram[i][j]);
-				mean[i] += (float)(j*histogram[i][j]);
+				mean[i] += (j*histogram[i][j]);
 			}
-			mean[i] /= (float)numSamples;
+			mean[i] /= numSamples;
 		}
 		minValue[GRAY] = Math.min(Math.min(minValue[RED], minValue[GREEN]), minValue[BLUE]);
 		maxValue[GRAY] = Math.max(Math.max(maxValue[RED], maxValue[GREEN]), maxValue[BLUE]);

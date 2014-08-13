@@ -54,7 +54,6 @@ package vrl.math;
 import groovy.lang.GroovyShell;
 import groovy.lang.Script;
 import java.io.Serializable;
-import java.util.HashMap;
 
 /**
  * <p> A function defined by a groovy string. It can be used to define functions

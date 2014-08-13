@@ -447,15 +447,15 @@ public class Canvas extends JPanel
 
         this.add((GlobalBackgroundPainter) grid);
 
-        this.add((GlobalBackgroundPainter) backgroundImage);
+        this.add(backgroundImage);
 
 //        this.add((GlobalBackgroundPainter) new SpotPainter(this));
 
         dataConnections = new Connections(this);
-        this.add((GlobalBackgroundPainter) dataConnections);
+        this.add(dataConnections);
 
         controlFlowConnections = new Connections(this);
-        add((GlobalBackgroundPainter) controlFlowConnections);
+        add(controlFlowConnections);
 
         canvasWindows = new CanvasWindows(this);
         
@@ -1232,7 +1232,7 @@ public class Canvas extends JPanel
                         Canvas.this, VComponent.class);
 
                 for (Component c : vComponents) {
-                    ((VComponent) c).contentChanged();
+                    ((BufferedPainter) c).contentChanged();
                 }
 
                 refresh();
@@ -1346,7 +1346,7 @@ public class Canvas extends JPanel
         Component p = null;
 
         if (c instanceof Component) {
-            p = (Component) c;
+            p = c;
         } else {
             return null;
         }

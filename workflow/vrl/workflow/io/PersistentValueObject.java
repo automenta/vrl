@@ -6,10 +6,7 @@
 
 package vrl.workflow.io;
 
-import vrl.workflow.CompatibilityResult;
-import vrl.workflow.VNode;
 import vrl.workflow.VisualizationRequest;
-import javafx.beans.property.ObjectProperty;
 
 /**
  *

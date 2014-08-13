@@ -54,7 +54,6 @@ package vrl.system;
 
 import vrl.io.VersionInfo;
 import vrl.lang.Patterns;
-import java.util.regex.Pattern;
 
 /**
  * Unique plugin identifier.

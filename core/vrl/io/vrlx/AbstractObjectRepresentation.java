@@ -389,7 +389,7 @@ public class AbstractObjectRepresentation
         VisualCanvas mainCanvas = (VisualCanvas) canvas;
 
         window = new VisualObject(
-                this, (VisualCanvas) mainCanvas);
+                this, mainCanvas);
 
         mainCanvas.getWindows().addWithID(window, abstractWindow.getObjID());
 

@@ -335,14 +335,14 @@ public class CausticsFilter extends WholeImageFilter {
 		x += 371;
 		y += 529;
 		
-		for (i = 0; i < (int)octaves; i++) {
+		for (i = 0; i < octaves; i++) {
 			value += Noise.noise3(x, y, time) / f;
 			x *= lacunarity;
 			y *= lacunarity;
 			f *= 2;
 		}
 
-		remainder = octaves - (int)octaves;
+		remainder = octaves - octaves;
 		if (remainder != 0)
 			value += remainder * Noise.noise3(x, y, time) / f;
 

@@ -54,9 +54,7 @@ package vrl.visual;
 
 import vrl.system.VParamUtil;
 import vrl.visual.VDialog.AnswerType;
-import java.awt.Component;
 import javax.swing.JComponent;
-import javax.swing.JOptionPane;
 
 /**
  *

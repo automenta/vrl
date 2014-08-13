@@ -54,10 +54,7 @@ package vrl.visual;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.GridLayout;
-import java.awt.Insets;
 import java.io.Serializable;
-import javax.swing.Box;
 
 import javax.swing.JPanel;
 

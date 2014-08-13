@@ -55,7 +55,6 @@ package vrl.types;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.MessageBox;
 import vrl.visual.MessageType;
-import vrl.visual.VSwingUtil;
 import groovy.lang.Script;
 import java.lang.reflect.InvocationTargetException;
 import java.util.logging.Level;

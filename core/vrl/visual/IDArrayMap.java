@@ -103,7 +103,7 @@ public class IDArrayMap<T extends IDObject> extends HashMap<Object, IDArrayList>
      */
      @SuppressWarnings( "unchecked" )
     public IDArrayList<T> getValues(Object key) {
-        IDArrayList<T> list = (IDArrayList<T>) get(key);
+        IDArrayList<T> list = get(key);
         if (list == null) {
             list = new IDArrayList<T>();
             put(key, list);

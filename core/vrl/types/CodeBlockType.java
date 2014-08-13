@@ -77,7 +77,7 @@ public class CodeBlockType extends TypeTemplate {
         Object result = null;
 
         if (getMainCanvas() != null
-                && !((VisualCanvas) getMainCanvas()).isSavingSession()) {
+                && !getMainCanvas().isSavingSession()) {
             result = super.getViewValue();
         }
 

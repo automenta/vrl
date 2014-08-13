@@ -53,7 +53,6 @@
 package vrl.io;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import javax.swing.filechooser.FileSystemView;
 
 /**

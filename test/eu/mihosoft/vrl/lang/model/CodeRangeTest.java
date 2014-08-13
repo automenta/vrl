@@ -52,7 +52,6 @@ package eu.mihosoft.vrl.lang.model;
 
 import vrl.lang.model.ICodeRange;
 import vrl.lang.model.CodeRange;
-import vrl.lang.ICodeReader;
 import vrl.lang.CodeReader;
 import java.io.IOException;
 import java.io.Reader;

@@ -50,8 +50,6 @@
 
 package vrl.base;
 
-import java.util.Map;
-
 /**
  *
  * @author Michael Hoffer <info@michaelhoffer.de>

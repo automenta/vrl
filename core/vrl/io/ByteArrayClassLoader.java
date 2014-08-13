@@ -52,15 +52,11 @@
 
 package vrl.io;
 
-import java.lang.*;
 import java.net.*;
 import java.io.*;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.jar.JarEntry;
-import java.util.jar.JarInputStream;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -193,7 +189,7 @@ public class ByteArrayClassLoader extends ClassLoader {
     @Override
     protected Class<?> findClass(String className) {
         Class<?> result = null;
-        result = (Class<?>) classes.get(className);
+        result = classes.get(className);
         if (result == null) {
             try {
                 return findSystemClass(className);

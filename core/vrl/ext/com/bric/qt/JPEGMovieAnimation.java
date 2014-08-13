@@ -183,7 +183,7 @@ public class JPEGMovieAnimation {
 		MemoryCacheImageOutputStream iOut = null;
 		
 		iOut = new MemoryCacheImageOutputStream(mOut);
-		ImageWriter iw = (ImageWriter)ImageIO.getImageWritersByMIMEType("image/jpeg").next();
+		ImageWriter iw = ImageIO.getImageWritersByMIMEType("image/jpeg").next();
 		ImageWriteParam iwParam = iw.getDefaultWriteParam();
 		iwParam.setCompressionMode(ImageWriteParam.MODE_EXPLICIT);
 		iwParam.setCompressionQuality(quality);
@@ -231,7 +231,7 @@ public class JPEGMovieAnimation {
 			long duration = 0;
 			long dataSize = 0;
 			for(int a = 0; a<frames.size(); a++) {
-				Frame f = (Frame)frames.get(a);
+				Frame f = frames.get(a);
 				duration += f.duration;
 				dataSize += f.fileLength;
 			}
@@ -298,7 +298,7 @@ public class JPEGMovieAnimation {
 			long chunkSize = 0;
 			int samplesWritten = 0;
 			for(int a = 0; a<frames.size(); a++) {
-				Frame f = (Frame)frames.get(a);
+				Frame f = frames.get(a);
 				stts.addSampleTime(f.duration);
 				stsz.addSampleSize(f.fileLength);
 				if(a==0 || (chunkTime+f.duration>=600 && chunkSize>CHUNK_MIN)) {
@@ -331,7 +331,7 @@ public class JPEGMovieAnimation {
 		
 		long mdatSize = 8;
 		for(int a = 0; a<frames.size(); a++) {
-			Frame f = (Frame)frames.get(a);
+			Frame f = frames.get(a);
 			mdatSize += f.fileLength;
 		}
 		

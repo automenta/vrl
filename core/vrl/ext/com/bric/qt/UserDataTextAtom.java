@@ -57,7 +57,7 @@ class UserDataTextAtom extends LeafAtom {
     @Override
 	protected void writeContents(GuardedOutputStream out) throws IOException {
 		for(int a = 0; a<entries.size(); a++) {
-			TextEntry e = (TextEntry)entries.get(a);
+			TextEntry e = entries.get(a);
 			write16Int(out,e.data.length);
 			write16Int(out,e.language);
 			out.write(e.data);
@@ -68,7 +68,7 @@ class UserDataTextAtom extends LeafAtom {
 	public String toString() {
 		StringBuilder sb = new StringBuilder("UserDataTextAtom[ ");
 		for(int a = 0; a<entries.size(); a++) {
-			TextEntry e = (TextEntry)entries.get(a);
+			TextEntry e = entries.get(a);
 			sb.append("\"").append(new String(e.data)).append("\" ");
 		}
 		sb.append("]");

@@ -53,16 +53,11 @@
 package vrl.lang.java;
 
 import vrl.lang.ClassEntry;
-import vrl.lang.Patterns;
 import vrl.reflection.VisualCanvas;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -72,7 +67,6 @@ import javax.tools.ForwardingJavaFileManager;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
-import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardLocation;
 
 /**
@@ -209,7 +203,7 @@ public class VClassFileManager
     @Override
     public String inferBinaryName(Location location, JavaFileObject file) {
         if (file instanceof ClassFileObject) {
-            return ((ClassFileObject) file).getName().replace(".class", "");
+            return file.getName().replace(".class", "");
         } else {
             return super.inferBinaryName(location, file);
         }

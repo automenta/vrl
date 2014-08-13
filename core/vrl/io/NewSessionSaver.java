@@ -52,15 +52,10 @@
 
 package vrl.io;
 
-import vrl.io.vrlx.VRLXSessionController;
-import vrl.io.vrlx.VRLXReflection;
 import vrl.reflection.VisualCanvas;
 import vrl.system.VParamUtil;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * New session saver.

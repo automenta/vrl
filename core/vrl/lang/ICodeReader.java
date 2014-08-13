@@ -52,7 +52,6 @@ package vrl.lang;
 
 import vrl.lang.model.ICodeRange;
 import java.io.IOException;
-import java.io.Reader;
 
 /**
  *

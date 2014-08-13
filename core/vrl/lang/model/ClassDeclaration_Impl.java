@@ -116,7 +116,7 @@ class ClassDeclaration_Impl extends ScopeImpl implements ClassDeclaration {
         boolean mResult = false;
         
         if (s instanceof MethodDeclaration) {
-            mResult =  getDeclaredMethods().remove((MethodDeclaration) s);
+            mResult =  getDeclaredMethods().remove(s);
         }
         
         boolean sResult = super.removeScope(s);

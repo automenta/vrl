@@ -16,9 +16,6 @@ limitations under the License.
 
 package vrl.ext.com.jhlabs.image;
 
-import java.awt.*;
-import java.awt.image.*;
-
 /**
  * A Filter to draw grids and check patterns.
  */

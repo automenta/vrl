@@ -107,7 +107,7 @@ public class MethodNameType extends StringType {
                 
                 if (v == null 
                         || (v instanceof String && ((String)v).isEmpty())) {
-                    setViewValue((String) property);
+                    setViewValue(property);
                 }
             }
         }

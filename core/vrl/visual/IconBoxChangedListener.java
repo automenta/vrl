@@ -52,8 +52,6 @@
 
 package vrl.visual;
 
-import java.awt.Component;
-
 /**
  * An icon box listener.
  * @author Michael Hoffer <info@michaelhoffer.de>

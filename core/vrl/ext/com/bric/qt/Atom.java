@@ -67,7 +67,7 @@ abstract class Atom implements TreeNode {
 		if(answers.size()==0)
 			return "unknown";
 		if(answers.size()==1)
-			return (String)answers.get(0);
+			return answers.get(0);
 	
 		StringBuffer sb = new StringBuffer();
 		sb.append("[");
@@ -191,7 +191,7 @@ abstract class Atom implements TreeNode {
 		read(in,array3);
 		long k = (((long)(array3[0] & 0xff)) << 16) +
 		(((long)(array3[1] & 0xff)) << 8) +
-		(((long)(array3[2] & 0xff)));
+                        (array3[2] & 0xff);
 		return (int)k;
 	}
 	protected synchronized static final long read32Int(InputStream in) throws IOException {
@@ -263,7 +263,7 @@ abstract class Atom implements TreeNode {
 		long w = (value & 0xffff0000) >> 16;
 		long f = (value & 0xffff);
 		
-		float floatValue = ((float)w)+((float)f)/65536f;
+		float floatValue = w+f/65536f;
 
 		return floatValue*multiplier;
 	}
@@ -284,7 +284,7 @@ abstract class Atom implements TreeNode {
 		}
 		long f = value & 0x3FFF;
 		
-		float floatValue = ((float)w)+((float)f)/16384f;
+		float floatValue = w+f/16384f;
 		
 		return floatValue*multiplier;
 	}
@@ -301,7 +301,7 @@ abstract class Atom implements TreeNode {
 		long w = (value & 0xff00) >> 8;
 		long f = (value & 0xff);
 		
-		float floatValue = ((float)w)+((float)f)/256f;
+		float floatValue = w+f/256f;
 
 		return floatValue*multiplier;
 	}

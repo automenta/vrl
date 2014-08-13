@@ -55,7 +55,6 @@ package vrl.dialogs;
 import vrl.io.ClassFileLoader;
 import vrl.io.ClassFilter;
 import vrl.visual.Canvas;
-import java.awt.Component;
 
 /**
  * A dialog for loading java classes from file.

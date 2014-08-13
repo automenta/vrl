@@ -909,7 +909,7 @@ public class CanvasWindow extends VComponent
                 getPainter() != null && getPainter() instanceof ShadowPainter;
 
         if (validShadowPainter) {
-            shape = ((ShadowPainter) getPainter()).getShape();
+            shape = ((ShapeDescription) getPainter()).getShape();
         }
 
         if (shape == null || !validShadowPainter) {
@@ -2250,7 +2250,7 @@ class WindowBackgroundPainter implements Painter, ShadowPainter, BufferedPainter
             throw new IllegalArgumentException(
                     "Only \"CanvasWindow\" is supported as parent!");
         }
-        this.parent = (CanvasWindow) parent;
+        this.parent = parent;
     }
 
     @Override

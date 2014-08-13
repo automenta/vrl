@@ -5,7 +5,6 @@
  */
 package eu.mihosoft.vrl.instrumentation;
 
-import groovy.lang.GroovyClassLoader;
 import groovy.lang.GroovyShell;
 import org.junit.Test;
 

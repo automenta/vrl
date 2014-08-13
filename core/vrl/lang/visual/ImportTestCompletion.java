@@ -52,7 +52,6 @@
 
 package vrl.lang.visual;
 
-import javax.swing.text.JTextComponent;
 import org.fife.ui.autocomplete.AbstractCompletion;
 import org.fife.ui.autocomplete.Completion;
 import org.fife.ui.autocomplete.CompletionProvider;

@@ -38,7 +38,7 @@ public class LogBackground implements GlobalBackgroundPainter {
         String[] paragraphs = input.split("\n");
         for (String p : paragraphs) {
             AttributedString attributedString = new AttributedString(p);
-            attributedString.addAttribute(TextAttribute.FONT, (Font) UIManager
+            attributedString.addAttribute(TextAttribute.FONT, UIManager
                     .get("Label.font"));
             Color color = (Color) UIManager.get("Label.foreground");
 

@@ -17,11 +17,8 @@ limitations under the License.
 package vrl.ext.com.jhlabs.composite;
 
 import java.awt.*;
-import java.awt.geom.*;
 import java.awt.image.*;
 import java.awt.color.*;
-import java.net.*;
-import java.io.*;
 
 public class MiscCompositeContext implements CompositeContext {
 

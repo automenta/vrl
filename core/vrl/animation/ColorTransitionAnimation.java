@@ -80,7 +80,7 @@ public class ColorTransitionAnimation extends Animation implements FrameListener
 
     @Override
     public void frameStarted(double time) {
-        connection.setColorValue((float) colorTarget.getValue());
+        connection.setColorValue(colorTarget.getValue());
         
         
         // due to new repaint rules this repaint call is obsolete (30.05.2011)

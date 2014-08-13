@@ -57,7 +57,6 @@ import vrl.visual.CanvasWindow;
 import vrl.visual.Connections;
 import vrl.visual.Connector;
 import vrl.visual.ConnectorType;
-import java.awt.Color;
 import java.awt.Point;
 
 /**

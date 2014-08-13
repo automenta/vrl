@@ -52,7 +52,6 @@
 
 package vrl.visual;
 
-import java.awt.Color;
 import java.io.Serializable;
 import javax.swing.JButton;
 

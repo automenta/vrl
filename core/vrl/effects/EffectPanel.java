@@ -55,7 +55,6 @@ package vrl.effects;
 import vrl.visual.Canvas;
 import vrl.visual.CanvasChild;
 import vrl.visual.Disposable;
-import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 import javax.swing.JPanel;
