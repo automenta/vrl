@@ -52,8 +52,8 @@
 
 package vrl.types;
 
-import vrl.lang.annotation.TypeInfo;
 import java.awt.Dimension;
+import vrl.annotation.TypeInfo;
 import vrl.reflection.TypeRepresentationBase;
 import vrl.visual.VBoxLayout;
 import vrl.visual.VTextField;

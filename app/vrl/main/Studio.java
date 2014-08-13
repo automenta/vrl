@@ -469,7 +469,7 @@ public class Studio extends javax.swing.JFrame {
      */
     public static String getChangelog() {
         return IOUtil.readResourceTextFile(
-                "/eu/mihosoft/vrlstudio/resources/changelog/changelog.txt");
+                "/resources/changelog/changelog.txt");
     }
 
     /**

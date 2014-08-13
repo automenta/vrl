@@ -104,25 +104,25 @@ public final class GroovyCompiler implements vrl.lang.VCompiler {
     }
 
     private void init() {
-        imports.add("import eu.mihosoft.vrl.animation.*;");
-        imports.add("import eu.mihosoft.vrl.annotation.*;");
-        imports.add("import eu.mihosoft.vrl.asm.*;");
-        imports.add("import eu.mihosoft.vrl.devel.*;");
-        imports.add("import eu.mihosoft.vrl.dialogs.*;");
-        imports.add("import eu.mihosoft.vrl.effects.*;");
-        imports.add("import eu.mihosoft.vrl.io.*;");
-        imports.add("import eu.mihosoft.vrl.io.vrlx.*;");
-        imports.add("import eu.mihosoft.vrl.lang.*;");
-        imports.add("import eu.mihosoft.vrl.math.*;");
-        imports.add("import eu.mihosoft.vrl.lang.groovy.*;");
-        imports.add("import eu.mihosoft.vrl.lang.visual.*;");
-        imports.add("import eu.mihosoft.vrl.reflection.*;");
-        imports.add("import eu.mihosoft.vrl.security.*;");
-        imports.add("import eu.mihosoft.vrl.system.*;");
-        imports.add("import eu.mihosoft.vrl.types.*;");
-        imports.add("import eu.mihosoft.vrl.media.*;");
-        imports.add("import eu.mihosoft.vrl.v3d.*;");
-        imports.add("import eu.mihosoft.vrl.visual.*;");
+        imports.add("import vrl.animation.*;");
+        imports.add("import vrl.annotation.*;");
+        imports.add("import vrl.asm.*;");
+        imports.add("import vrl.devel.*;");
+        imports.add("import vrl.dialogs.*;");
+        imports.add("import vrl.effects.*;");
+        imports.add("import vrl.io.*;");
+        imports.add("import vrl.io.vrlx.*;");
+        imports.add("import vrl.lang.*;");
+        imports.add("import vrl.math.*;");
+        imports.add("import vrl.lang.groovy.*;");
+        imports.add("import vrl.lang.visual.*;");
+        imports.add("import vrl.reflection.*;");
+        imports.add("import vrl.security.*;");
+        imports.add("import vrl.system.*;");
+        imports.add("import vrl.types.*;");
+        imports.add("import vrl.media.*;");
+        imports.add("import vrl.v3d.*;");
+        imports.add("import vrl.visual.*;");
         imports.add("import javax.vecmath.*;");
         imports.add("import javax.media.j3d.*;");
 //        imports.add("import com.sun.j3d.utils.*;");
